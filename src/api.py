@@ -1,4 +1,4 @@
-"""Scaffolding to host your LangChain Chatbot on Steamship and connect it to Telegram."""
+""Scaffolding to host your LangChain Chatbot on Steamship and connect it to Telegram."""
 from typing import List, Optional, Type
 
 import langchain
@@ -42,7 +42,8 @@ class GirlFriendAIConfig(TelegramBotConfig):
     )
 
 
-class GirlfriendGPT(LangChainAgentBot, TelegramBot):
+class GirlfriendGPT(LangChainAgentBot, 
+""Scaffolding to host your LangChain Chatbot on Steamship anelegramBot):
     """Deploy LangChain chatbots and connect them to Telegram."""
 
     config: GirlFriendAIConfig
